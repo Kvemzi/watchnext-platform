@@ -10,6 +10,10 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
+// Routes
+const contentRoutes = require('./src/routes/content');
+app.use('/api/content', contentRoutes);
+
 // Health check
 app.get('/health', async (req, res) => {
   try {
@@ -27,15 +31,16 @@ app.get('/health', async (req, res) => {
   }
 });
 
-// Root endpoint
+// Root
 app.get('/', (req, res) => {
   res.json({
     message: '🎬 WatchNext API',
     version: '1.0.0',
     endpoints: [
       'GET /health',
-      'GET /api/content (coming soon)',
-      'GET /api/users (coming soon)',
+      'GET /api/content',
+      'GET /api/content/:id',
+      'GET /api/content?type=movie',
     ]
   });
 });
