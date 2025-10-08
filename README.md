@@ -292,7 +292,7 @@ MIT License - Feel free to use this project for learning purposes!
 **Kvemzi**
 - **Focus:** Jest, k6, Git/GitHub, Data Analytics
 - **Project:** WatchNext Platform
-- **Started:** January 9, 2025
+- **Started:** October 8, 2025
 
 ## 🙏 Acknowledgments
 
