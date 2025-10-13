@@ -225,10 +225,39 @@ This project follows [Conventional Commits](https://www.conventionalcommits.org/
 
 All commits must follow the format:
 \`\`\`
-<type>(<scope>): <subject>
+
+<type> (<scope>): <subject>
+
 \`\`\`
 
 Commits are validated automatically via commitlint and husky.
+
+### Available Types:
+
+- `feat:` - New feature
+- `fix:` - Bug fix
+- `docs:` - Documentation
+- `test:` - Tests
+- `chore:` - Maintenance
+- `refactor:` - Code refactoring
+- `perf:` - Performance improvements
+- `ci:` - CI/CD changes
+- `style:` - Code styling
+- `build:` - Build
+- `revert:` - reverting
+
+### Examples:
+```bash
+✅ GOOD:
+git commit -m "feat: add user authentication endpoint"
+git commit -m "fix: resolve database connection timeout"
+git commit -m "docs: update API documentation"
+git commit -m "test: add unit tests for content controller"
+
+❌ BAD (will be rejected):
+git commit -m "update"
+git commit -m "fix stuff"
+git commit -m "WIP"
 
 ### Version Management
 
