@@ -1,6 +1,10 @@
 # 🎬 WatchNext Platform
 
 > Personal entertainment tracking system with analytics and performance testing
+[![CI](https://github.com/Kvemzi/watchnext-platform/workflows/CI%20Pipeline/badge.svg)](https://github.com/Kvemzi/watchnext-platform/actions)
+[![Release](https://img.shields.io/github/v/release/Kvemzi/watchnext-platform)](https://github.com/Kvemzi/watchnext-platform/releases)
+[![Commits](https://img.shields.io/github/commit-activity/m/Kvemzi/watchnext-platform)](https://github.com/Kvemzi/watchnext-platform/commits/master)
+
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-brightgreen.svg)](https://nodejs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)](https://www.postgresql.org/)
