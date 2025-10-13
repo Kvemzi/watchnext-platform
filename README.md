@@ -219,16 +219,26 @@ git branch -d feature/new-feature
 git push origin main
 ```
 
-### Commit Convention
+## 📝 Commit Convention
 
-Following conventional commits specification:
+This project follows [Conventional Commits](https://www.conventionalcommits.org/).
 
-- `feat:` New feature
-- `fix:` Bug fix
-- `test:` Adding or updating tests
-- `docs:` Documentation changes
-- `refactor:` Code refactoring
-- `chore:` Maintenance tasks
+All commits must follow the format:
+\`\`\`
+<type>(<scope>): <subject>
+\`\`\`
+
+Commits are validated automatically via commitlint and husky.
+
+### Version Management
+
+Versions are managed automatically using `standard-version`:
+- `npm run release` - Automatic version bump
+- `npm run release:patch` - Patch version (1.0.0 → 1.0.1)
+- `npm run release:minor` - Minor version (1.0.0 → 1.1.0)
+- `npm run release:major` - Major version (1.0.0 → 2.0.0)
+
+See [CHANGELOG.md](./CHANGELOG.md) for version history.
 
 ## 🐛 Troubleshooting
 
