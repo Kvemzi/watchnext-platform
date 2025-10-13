@@ -9,7 +9,7 @@
 │       ├── db.js
 │       └── routes
 │           └── content.js
-├── database
+├── databases
 │   └── schema.sql
 ├── README.md
 └── tree.md
