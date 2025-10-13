@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
+    "prepare": "husky",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major",
+    "release:patch": "standard-version --release-as patch"
   },
   "repository": {
     "type": "git",
@@ -19,6 +23,9 @@
   },
   "homepage": "https://github.com/Kvemzi/watchnext-platform#readme",
   "devDependencies": {
-    "husky": "^9.1.7"
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "husky": "^9.1.7",
+    "standard-version": "^9.5.0"
   }
 }
