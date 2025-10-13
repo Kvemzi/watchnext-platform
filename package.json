@@ -1,0 +1,24 @@
+{
+  "name": "watchnext-platform",
+  "version": "1.0.0",
+  "description": "> Personal entertainment tracking system with analytics and performance testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kvemzi/watchnext-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kvemzi/watchnext-platform/issues"
+  },
+  "homepage": "https://github.com/Kvemzi/watchnext-platform#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
