@@ -262,6 +262,7 @@ git commit -m "test: add unit tests for content controller"
 git commit -m "update"
 git commit -m "fix stuff"
 git commit -m "WIP"
+```
 
 ### Version Management
 
